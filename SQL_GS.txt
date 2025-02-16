@@ -1,0 +1,45 @@
+SQL
+Class - 1
+
+    What is Database?
+    Difference between Transactional Databases and NoSQL databases
+    What is DBMS & RDBMS?
+    Transactions & ACID Properties
+    Setup MySQL Workbench
+    Setup MySQL Using Docker
+    DDL, DML, DQL, DCL
+    CREATE Command
+    INSERT Command
+    Integrity Constraints
+
+ Class - 2
+    Alter Command
+    Drop, Truncate and Delete
+    Primary Key vs Foreign Key
+    Referential Integrity
+    Select Query, In-Built Functions, Aliases
+    UPDATE Command
+    Auto Increment in create table
+    Limit
+    Order By Clause
+    Conditional Operators
+    Logical Operators
+    Like Operation
+    User Defined Functions (UDFs)
+
+Class - 3
+
+    IS NULL, IS NOT NULL
+    Group By, Having Clause
+    Group Concat, Group RollUP
+    Sub Queries, IN and NOT IN
+    CASE-When
+    SQL Joins
+
+Class - 4
+
+    Exists and Not Exists
+    Window Functions
+    Frame Clause
+    Coalesce Function
+    Common Table Expressions - Iterative and Recursive

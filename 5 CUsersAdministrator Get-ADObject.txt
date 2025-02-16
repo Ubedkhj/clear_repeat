@@ -1,0 +1,1 @@
+5 C:\Users\Administrator> Get-ADObject IncludeDeletedObjects -Filter IsDeleted -eq Strue -arid ObjectClass -ed "user"

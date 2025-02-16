@@ -1,0 +1,80 @@
+step_1_failed
+
+   Date      Time     Class  No.   Message
+--------------------+------------+--------
+18.07.2024 10:12:41 | 00     516 | Job started
+18.07.2024 10:12:41 | 00     550 | Step 001 started (program RFEBKA00, variant EBS-BMG, user ID BTCHFMS-US)
+18.07.2024 10:12:41 | FB     770 | Account BKMGNL2A       791000: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:41 | FB     770 | Account BKMGNL2A       999200: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:42 | FB     770 | Account BKMGNL2A       606100: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:42 | FB     770 | Account BKMGNL2A       606780: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:42 | FB     770 | Account BKMGNL2A       463220: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:42 | FB     770 | Account BKMGNL2A       581100: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:42 | FB     770 | Account BKMGNL2A       109025: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:42 | FB     770 | Account BKMGNL2A       977900: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:42 | FB     770 | Account BKMGNL2A       481100: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:42 | FB     770 | Account BKMGNL2A       119660: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:42 | FB     770 | Account BKMGNL2A       119615: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:42 | FB     770 | Account BKMGNL2A       516000: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:42 | FB     770 | Account BKMGNL2A       135010: Statement 202440721 is not in the bank data storage
+18.07.2024 10:12:42 | FB     736 | House bank table: No entry with bank key  and acct 606160
+18.07.2024 10:12:42 | 00     518 | Job canceled
+
+Execution Server : AWSNEDCSAP126_RP1_02
+SAP Client       : 750
+
+System ID        : RP1
++------------------------------------------------
+|   Steps Details
++------------------------------------------------
+|Step         : 1
+|Program      : RFEBKA00
+|Type         : ABAP
+|Variant      : EBS-BMG
+|
+|Variant parameters:
+|Parameter   1: AUSZFILE=\\omaedcsap250\InterfaceRep$\RP1\Inbound\BMG\ICNET_IN.txt
+|Parameter   2: BATCH=X
+|Parameter   3: EINLESEN=X
+|Parameter   4: FORMAT=I
+|Parameter   5: INTRADAY=
+|Parameter   6: MREGEL=1
+|Parameter   7: NULLUMSA=
+|Parameter   8: PA_BDANZ=0000
+|Parameter   9: PA_BDART=
+|Parameter   10: PA_DSART=
+|Parameter   11: PA_LSEPA=
+|Parameter   12: PA_MODE=
+|Parameter   13: PA_PAIN=
+|Parameter   14: PA_TEST=X
+|Parameter   15: PA_VERD=
+|Parameter   16: PA_XBDC=
+|Parameter   17: PA_XBKBU=
+|Parameter   18: PA_XCALL=
+|Parameter   19: PA_XDISP=
+|Parameter   20: PCUPLOAD=
+|Parameter   21: P_BAIPRE=
+|Parameter   22: P_BUPRO=X
+|Parameter   23: P_KOAUSZ=X
+|Parameter   24: P_NO_LOG=
+|Parameter   25: P_PRIORD=
+|Parameter   26: P_STATIK=X
+|Parameter   27: P_STOP=
+|Parameter   28: S_FILTER=I,BT,0000000001 => 9999999999
+|Parameter   29: T_FILTER=I,BT,A => ZZZZZZZZZZZZZZZZ
+|Parameter   30: UMSFILE=
+|Parameter   31: VALUT_ON=X
+|Parameter   32: WF_OKEY=
+|Parameter   33: WF_WITEM=
+|Parameter   34: WF_WLIST=
+|Parameter   35: X_FORMAT=CAMT.053.001.02
++------------------------------------------------
+|Step         : 2
+|Program      : ZFII_MOVE_BANK_FILE
+|Type         : ABAP
+|Variant      : BMG_EBS
+|
+|Variant parameters:
+|Parameter   1: P_DPATH=ZFII_BMG_DEST_PATH
+|Parameter   2: P_SPATH=ZFII_BMG_SRC_PATH
++------------------------------------------------

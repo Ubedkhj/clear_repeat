@@ -1,0 +1,9 @@
+
+PRO-PROD-SAP-CPI|Error | IPG_EAI_Routing_Vantage_FMSExtracts | 20241109041821| INC000000431923
+IPG_EAI_VTG_EInvoice_ImageUpload | CHECK | Unhandled Errors INC000000431760 
+Error |  IPG_EAI_Routing_Vantage_HSBC  | 2024-11-09 01:12:09 INC000000431555 
+
+
+
+Interface: TwentyFiveGigE1/0/8 · Blufibre;P2P-CAL1509EA;Cir#:292921;10GB
+Interface: TenGigabitEthernet1/1/3 · BluFibre;P2P-CATOR250FRO-CS1;Cir#:292921;10GB
